@@ -62,7 +62,7 @@ function Home() {
           {/* Social Icons */}
           <div ref={(el) => (animated.current[3] = el)} className="flex justify-center text-white gap-4 md:gap-6 mt-4">
             {[
-              { path: "https://github.com/", icon: <IoLogoGithub className="hover:scale-125 duration-500" /> },
+              { path: "https://github.com/DevendraSingh000", icon: <IoLogoGithub className="hover:scale-125 duration-500" /> },
               { path: "https://www.instagram.com/devendra__singh____7773/", icon: <FaInstagram className="text-[#E1306C] hover:scale-125 duration-500" /> },
               { path: "https://www.linkedin.com/feed/", icon: <FaLinkedin className="text-[#0077B5] hover:scale-125 duration-500" /> },
             ].map(({ path, icon }, i) => (
