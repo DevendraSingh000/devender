@@ -16,7 +16,7 @@ function Navbar() {
                 <button className='md:hidden text-2xl' onClick={() => setIsOpen(!isOpen)}>
                     {isOpen ? <FaTimes /> : <FaBars />}
                 </button>
-                <ul className={`md:flex md:items-center md:space-x-10 absolute md:static bg-blur bg-black/80 h-screen md:bg-transparent top-16 left-0 w-full md:w-auto p-6 md:p-0 transition-all duration-300 ${isOpen ? 'block' : 'hidden'}`}>
+                <ul className={`md:flex md:items-center md:space-x-10 absolute md:static bg-blur bg-black/80 h-screen sm:h-0 md:bg-transparent top-16 left-0 w-full md:w-auto p-6 md:p-0 transition-all duration-300 ${isOpen ? 'block' : 'hidden'}`}>
                     {[
                         { path: '/', name: "Home" },
                         { path: '/about', name: "About" },

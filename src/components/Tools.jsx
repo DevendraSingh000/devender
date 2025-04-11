@@ -55,12 +55,12 @@ function Tools() {
 
   const toolsData = [
     { img: "/assets/Tailwind CSS.png", name: "Tailwind CSS", desc: "CSS Framework" },
-    { img: "/assets/React.png", name: "React.js", desc: "JavaScript Library" },
+    { img: "/assets/React.png", name: "React JS", desc: "JavaScript Library" },
     { img: "/assets/Figma.png", name: "Figma", desc: "Design Tool" },
     { img: "/assets/HTML5.png", name: "HTML", desc: "Markup Language" },
     { img: "/assets/CSS3.png", name: "CSS", desc: "Styling Language" },
     { img: "/assets/JavaScript.png", name: "JavaScript", desc: "Programming Language" },
-    { img: "/assets/download.png", name: "Express.js", desc: "Backend Framework" },
+    { img: "/assets/download.png", name: "Express JS", desc: "Backend Framework" },
     { img: "/assets/MongoDB.png", name: "MongoDB", desc: "NoSQL Database" },
     { img: "/assets/Canva.png", name: "Canva", desc: "Design Tool" },
     { img: "/assets/images (1).jpeg", name: "Framer Motion", desc: "Animation Library" },

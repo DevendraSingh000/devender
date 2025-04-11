@@ -20,7 +20,7 @@ function About() {
             ease: "power2.out",
             scrollTrigger: {
               trigger: el,
-              start: "top 80%", 
+              start: "top 90%", 
               end: "top 40%", 
               scrub: true, // Scroll ke sath animation sync ho jayegi
             },
@@ -55,7 +55,7 @@ function About() {
           },
           {
             src: "/assets/front.png",
-            pra: "I am a front-end developer with a passion for building beautiful and functional websites",
+            pra: "I am a frontend developer with a passion for building beautiful and functional websites",
             alter: "Frontend Developer",
             heading: "Frontend Developer",
           },
@@ -86,7 +86,7 @@ function About() {
           </div>
         </div>
         <div className="flex flex-col items-center lg:items-start space-y-4 p-6 text-center lg:text-left">
-          <p ref={(el) => (anim.current[5] = el)} className="text-xl font-mono">About me -</p>
+          <p ref={(el) => (anim.current[5] = el)} className="text-xl font-mono">About me</p>
           <p ref={(el) => (anim.current[6] = el)} className="text-4xl font-extralight">
             Who is <span className="text-purple-600 font-bold">Devendra Singh?</span>
           </p>
@@ -116,7 +116,7 @@ function About() {
             ref={(el) => (anim.current[11] = el)}
             className="bg-purple-600 text-white px-6 py-3 rounded-full text-lg font-bold mt-6 shadow-lg transition-all duration-500 ease-in-out transform hover:scale-110 hover:bg-purple-700 hover:shadow-purple-500/50"
           >
-            Download C.V
+            Download CV
           </button>
         </div>
       </div>

@@ -118,13 +118,13 @@ function Contact() {
                 className="border text-black p-2 rounded-md focus:outline-none focus:ring-2 focus:ring-purple-500" 
               />
 
-              <label className="text-sm md:text-base">Mobile No.</label>
+              <label className="text-sm md:text-base">Mobile No</label>
               <input 
                 type="number" 
                 name="number" 
                 value={formData.number} 
                 onChange={handleChange} 
-                placeholder="Enter Mobile No." 
+                placeholder="Enter Mobile No" 
                 required 
                 className="border text-black p-2 rounded-md focus:outline-none focus:ring-2 focus:ring-purple-500" 
               />
@@ -145,7 +145,7 @@ function Contact() {
                 name="message" 
                 value={formData.message} 
                 onChange={handleChange} 
-                placeholder="Write your message..." 
+                placeholder="Write your messages" 
                 required 
                 className="border text-black p-2 rounded-md h-24 focus:outline-none focus:ring-2 focus:ring-purple-500" 
               ></textarea>

@@ -25,15 +25,15 @@ const ExperienceCard = ({ icon: Icon, title, data, animRef }) => (
 
 const Experience = () => {
   const educationData = [
-    { year: "2023-2024", institution: "S.S.G. Preek College", course: "Bachelor in Computer Applications" },
-    { year: "2023-2024", institution: "S.S.G. Preek College", course: "Web Development Course" },
-    { year: "2025-2027", institution: "JECRC College", course: "Master in Computer Applications" }
+    { year: "2023 to 2024", institution: "S.S.G. Preek College", course: "Bachelor in Computer Applications" },
+    { year: "2023 to 2024", institution: "S.S.G. Preek College", course: "Web Development Course" },
+    // { year: "2025-2027", institution: "JECRC College", course: "Master in Computer Applications" }
   ];
 
   const workData = [
-    { year: "2023-2024", institution: "S.S.G. Preek College", course: "Intern - Web Development" },
-    { year: "2024-2025", institution: "Freelance Projects", course: "Front-End Developer" },
-    { year: "2025-2027", institution: "Tech Company", course: "Software Developer" }
+    { year: "2023 to 2024", institution: "S.S.G. Preek College", course: "Intern  Web Development" },
+    { year: "2024 to 2025", institution: "Freelance Projects", course: "FrontEnd Developer" },
+    // { year: "2025-2027", institution: "Tech Company", course: "Software Developer" }
   ];
 
   const animRefs = useRef([]);

@@ -56,7 +56,7 @@ function Home() {
           </p>
           <p ref={(el) => (animated.current[1] = el)} className='my-2 text-2xl sm:text-3xl font-semibold'>Devendra Singh</p>
           <p ref={(el) => (animated.current[2] = el)} className='my-2 text-lg sm:text-xl max-w-lg'>
-            I create responsive, user-friendly websites with clean code and modern designs, ensuring optimal performance and seamless user experiences.
+            I create responsive&#44; user&#45;friendly websites with clean code and modern designs&#44; ensuring optimal performance and seamless user experiences&#46;
           </p>
 
           {/* Social Icons */}
