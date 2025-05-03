@@ -8,6 +8,7 @@ import Tools from './Tools.jsx';
 import Footer from './Footer.jsx';
 import Contect from './Contect.jsx';
 import gsap from 'gsap';
+import Projects from './Projects.jsx';
 
 function Home() {
   const animated = useRef([])
@@ -90,6 +91,7 @@ function Home() {
       <About path="/about" element={<About />} />
       <Exprience path="/exprience" element={<Exprience />} />
       <Tools path="/tools" element={<Tools />} />
+      <Projects path="/projects" element={<Projects />}/>
       <Contect path="/contect" element={<Contect />} />
       <Footer />
     </>
