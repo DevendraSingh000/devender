@@ -79,36 +79,35 @@ function About() {
       </div>
 
       {/* About Section */}
-      <div className="flex flex-col lg:flex-row items-center my-32 space-y-8 lg:space-y-0 lg:space-x-8 w-full px-4">
+      <div className="flex flex-col lg:flex-row items-center justify-center my-32 space-y-8 lg:space-y-0 lg:space-x-8 w-full px-4">
         <div ref={(el) => (anim.current[4] = el)}  className="flex justify-center items-center">
           <div className="h-[250px] w-[250px] sm:h-[350px] sm:w-[350px] rounded-full border-2 border-white shadow-lg flex justify-center items-center">
             <img src="/assets/devender.jpg" alt="" className="h-full object-cover w-full rounded-full -rotate-3" />
           </div>
         </div>
         <div className="flex flex-col items-center lg:items-start space-y-4 p-6 text-center lg:text-left">
-          <p ref={(el) => (anim.current[5] = el)} className="text-xl font-mono">About me</p>
+          <p ref={(el) => (anim.current[5] = el)} className="text-xl font-mono border-b pb-5">About me</p>
           <p ref={(el) => (anim.current[6] = el)} className="text-4xl font-extralight">
             Who is <span className="text-purple-600 font-bold">Devendra Singh?</span>
           </p>
           <p ref={(el) => (anim.current[7] = el)} className="text-xl font-extralight max-w-lg">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro, harum adipisci amet fuga suscipit placeat qui
-            odit fugit asperiores ullam.
+          At the heart of my work lies a clear vision: build modern, impactful, and performance-driven digital experiences. I'm Devendra Singh, a front-end developer with a strong foundation in web technologies and a growing command over full-stack development. I specialize in crafting responsive websites and user interfaces using HTML, CSS, JavaScript, React.js, Tailwind CSS, and PHP. With a passion for clean code and seamless functionality, I focus on delivering solutions that combine aesthetics with efficiency. My goal is to help businesses and individuals establish a strong digital presence using the latest tools and technologies. Let’s build something exceptional together.
           </p>
 
           {/* Stats */}
           <div className="flex flex-wrap justify-center lg:justify-start gap-6">
             <div ref={(el) => (anim.current[8] = el)} className="text-center">
-              <p className="font-bold text-4xl text-purple-600">6+</p>
-              <p className="font-extralight text-2xl text-gray-400">Years of Experience</p>
+              <p className="font-bold text-4xl text-purple-600">365+</p>
+              <p className="font-extralight text-2xl text-gray-400">Days Experience</p>
             </div>
             <div ref={(el) => (anim.current[9] = el)} className="text-center">
-              <p className="font-bold text-4xl text-purple-600">10+</p>
+              <p className="font-bold text-4xl text-purple-600">3+</p>
               <p className="font-extralight text-2xl text-gray-400">Projects Completed</p>
             </div>
-            <div ref={(el) => (anim.current[10] = el)} className="text-center">
+            {/* <div ref={(el) => (anim.current[10] = el)} className="text-center">
               <p className="font-bold text-4xl text-purple-600">2+</p>
               <p className="font-extralight text-2xl text-gray-400">Companies Served</p>
-            </div>
+            </div> */}
           </div>
 
           {/* Button */}

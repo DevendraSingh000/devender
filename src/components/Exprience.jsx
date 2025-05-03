@@ -25,10 +25,18 @@ const ExperienceCard = ({ icon: Icon, title, data, animRef }) => (
 
 const Experience = () => {
   const educationData = [
-    { year: "2023 to 2024", institution: "S.S.G. Preek College", course: "Bachelor in Computer Applications" },
-    { year: "2023 to 2024", institution: "S.S.G. Preek College", course: "Web Development Course" },
-    // { year: "2025-2027", institution: "JECRC College", course: "Master in Computer Applications" }
+    {
+      year: "2022 to 2025",
+      institution: "S.S.G. Pareek College",
+      course: "Bachelor of Computer Applications (Pursuing)",
+    },
+    {
+      year: "2023 to Present",
+      institution: "S.S.G. Pareek College",
+      course: "Web Development Program – HTML, CSS, JavaScript, React.js, Tailwind CSS, Bootstrap, PHP",
+    }
   ];
+  
 
   const workData = [
     { year: "2023 to 2024", institution: "S.S.G. Preek College", course: "Intern  Web Development" },
@@ -94,7 +102,7 @@ const Experience = () => {
       {/* Cards Section */}
       <div className='mt-10 sm:mt-12 flex flex-col md:flex-row flex-wrap items-center justify-center gap-6 sm:gap-10 w-full px-2 sm:px-6'>
         <ExperienceCard icon={RiGraduationCapFill} title="Education" data={educationData} animRef={(el) => (animRefs.current[0] = el)} />
-        <ExperienceCard icon={LuPencilLine} title="Work & Experience" data={workData} animRef={(el) => (animRefs.current[1] = el)} />
+        {/* <ExperienceCard icon={LuPencilLine} title="Work & Experience" data={workData} animRef={(el) => (animRefs.current[1] = el)} /> */}
       </div>
     </div>
   );
