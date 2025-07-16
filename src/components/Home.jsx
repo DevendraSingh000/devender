@@ -53,7 +53,7 @@ function Home() {
             }}
             className='text-white text-4xl sm:text-5xl md:text-6xl font-mono font-bold'
           >
-            FRONTEND DEVELOPER
+            FULLSTACK DEVELOPER
           </p>
           <p ref={(el) => (animated.current[1] = el)} className='my-2 text-2xl sm:text-3xl font-semibold'>Devendra Singh</p>
           <p ref={(el) => (animated.current[2] = el)} className='my-2 text-lg sm:text-xl max-w-lg'>
