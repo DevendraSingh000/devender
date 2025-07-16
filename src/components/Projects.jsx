@@ -32,32 +32,37 @@ function Projects() {
     {
       image: "https://www.primewebdev.in/_next/image?url=https%3A%2F%2Fdrive.google.com%2Fuc%3Fexport%3Dview%26id%3D1xttdfxQiXA3OzgaH3bqvk8tc2T-49TEZ&w=1200&q=75",
       heading: "Cafe",
-      path: '',
+      path: 'https://cafedummy.vercel.app/',
       dec: "A modern and visually appealing cafe website built using React, Tailwind CSS, and Framer Motion. It features a beautifully animated layout to showcase menu items, interior ambiance, customer reviews, and contact information — all optimized for mobile responsiveness and user engagement.",
     },
     {
       image: "https://www.primewebdev.in/_next/image?url=https%3A%2F%2Fdrive.google.com%2Fuc%3Fexport%3Dview%26id%3D1oAeZqJQ70KYpXlEx9RajZwDVq18aepwm&w=2048&q=75",
       heading: "GYM",
+      path: 'https://gymdummy.vercel.app/',
       dec: "A sleek and high-energy gym landing page designed with React and Tailwind CSS, incorporating smooth Motion animations. It promotes fitness programs, trainer bios, membership plans, and workout galleries — all crafted to motivate visitors and drive sign-ups effectively.",
     },
     {
       image: "https://www.primewebdev.in/_next/image?url=https%3A%2F%2Fdrive.google.com%2Fuc%3Fexport%3Dview%26id%3D1lYOYTIX5uUIgThzdczD3O-tNI0ErT1gv&w=2048&q=75",
       heading: "Jewellery",
+      path: 'https://jewelry-orpin.vercel.app/',
       dec: "An elegant and luxurious website for a jewellery brand, built with React and Tailwind CSS. It emphasizes stunning product visuals, smooth interactions, and responsive design. The layout showcases collections, details, and trust elements to enhance the brand’s premium appeal.",
     },
     {
       image: "https://www.primewebdev.in/_next/image?url=https%3A%2F%2Fdrive.google.com%2Fuc%3Fexport%3Dview%26id%3D1g7iL2Ix5ylBVcGaZn7xrDXBE3JvCIBAu&w=2048&q=75",
       heading: "Kitchen",
+      path: 'https://qitchendummy.vercel.app/',
       dec: "A clean and modern kitchen design showcase website developed with React and GSAP. It highlights modular kitchen layouts, appliances, and premium design inspirations. The site includes smooth animations, service breakdowns, and client testimonials to attract interior design clients.",
     },
     {
       image: "https://www.primewebdev.in/_next/image?url=https%3A%2F%2Fdrive.google.com%2Fuc%3Fexport%3Dview%26id%3D1LBRe7tjHTvRtpp0dHdZIL0Rlfl-kNC7I&w=2048&q=75",
       heading: "Salon",
+      path: 'https://salondummy.vercel.app/',
       dec: "A stylish and responsive salon website created with React and Tailwind CSS. It features dynamic animations, services listing, stylist profiles, and customer booking options. The design is built to attract modern clients and showcase the salon’s unique vibe and expertise.",
     },
     {
       image: "https://www.primewebdev.in/_next/image?url=https%3A%2F%2Fdrive.google.com%2Fuc%3Fexport%3Dview%26id%3D1VOlp745R-kdJ_VJWwnv-xNwdEXubIxOc&w=2048&q=75",
       heading: "Dental",
+      path: 'https://dainteldummy.vercel.app/',
       dec: "A professional and user-friendly dental clinic website developed with React, Tailwind CSS, and GSAP. It includes service descriptions, appointment forms, team bios, and animated trust elements — all designed to build credibility and make patient onboarding seamless and engaging.",
     },
   ];

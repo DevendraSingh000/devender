@@ -1,6 +1,7 @@
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import React, { useEffect, useRef } from "react";
+import { Link } from 'react-router-dom';
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -20,8 +21,8 @@ function About() {
             ease: "power2.out",
             scrollTrigger: {
               trigger: el,
-              start: "top 90%", 
-              end: "top 40%", 
+              start: "top 90%",
+              end: "top 40%",
               scrub: true, // Scroll ke sath animation sync ho jayegi
             },
           }
@@ -29,7 +30,7 @@ function About() {
       }
     });
   }, []);
-  
+
 
   return (
     <div className="my-16 px-4">
@@ -80,7 +81,7 @@ function About() {
 
       {/* About Section */}
       <div className="flex flex-col lg:flex-row items-center justify-center my-32 space-y-8 lg:space-y-0 lg:space-x-8 w-full px-4">
-        <div ref={(el) => (anim.current[4] = el)}  className="flex justify-center items-center">
+        <div ref={(el) => (anim.current[4] = el)} className="flex justify-center items-center">
           <div className="h-[250px] w-[250px] sm:h-[350px] sm:w-[350px] rounded-full border-2 border-white shadow-lg flex justify-center items-center">
             <img src="/assets/devender.jpg" alt="" className="h-full object-cover w-full rounded-full -rotate-3" />
           </div>
@@ -91,7 +92,7 @@ function About() {
             Who is <span className="text-purple-600 font-bold">Devendra Singh?</span>
           </p>
           <p ref={(el) => (anim.current[7] = el)} className="text-xl font-extralight max-w-lg">
-          At the heart of my work lies a clear vision: build modern, impactful, and performance-driven digital experiences. I'm Devendra Singh, a front-end developer with a strong foundation in web technologies and a growing command over full-stack development. I specialize in crafting responsive websites and user interfaces using HTML, CSS, JavaScript, React.js, Tailwind CSS, and PHP. With a passion for clean code and seamless functionality, I focus on delivering solutions that combine aesthetics with efficiency. My goal is to help businesses and individuals establish a strong digital presence using the latest tools and technologies. Let’s build something exceptional together.
+            At the heart of my work lies a clear vision: build modern, impactful, and performance-driven digital experiences. I'm Devendra Singh, a front-end developer with a strong foundation in web technologies and a growing command over full-stack development. I specialize in crafting responsive websites and user interfaces using HTML, CSS, JavaScript, React.js, Tailwind CSS, and PHP. With a passion for clean code and seamless functionality, I focus on delivering solutions that combine aesthetics with efficiency. My goal is to help businesses and individuals establish a strong digital presence using the latest tools and technologies. Let’s build something exceptional together.
           </p>
 
           {/* Stats */}
@@ -111,12 +112,15 @@ function About() {
           </div>
 
           {/* Button */}
-          <button
+          <a
+            href="/Resume.pdf" 
+            target="_blank"
             ref={(el) => (anim.current[11] = el)}
             className="bg-purple-600 text-white px-6 py-3 rounded-full text-lg font-bold mt-6 shadow-lg transition-all duration-500 ease-in-out transform hover:scale-110 hover:bg-purple-700 hover:shadow-purple-500/50"
           >
             Download CV
-          </button>
+          </a>
+
         </div>
       </div>
     </div>
