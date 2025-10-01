@@ -113,7 +113,7 @@ function About() {
 
           {/* Button */}
           <a
-            href="/Resume.pdf" 
+            href="/DEVENDRA SINGH (1).pdf" 
             target="_blank"
             ref={(el) => (anim.current[11] = el)}
             className="bg-purple-600 text-white px-6 py-3 rounded-full text-lg font-bold mt-6 shadow-lg transition-all duration-500 ease-in-out transform hover:scale-110 hover:bg-purple-700 hover:shadow-purple-500/50"
