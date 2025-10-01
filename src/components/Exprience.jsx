@@ -13,11 +13,12 @@ const ExperienceCard = ({ icon: Icon, title, data, animRef }) => (
       <p className='text-xl sm:text-2xl md:text-3xl font-bold mx-3 sm:mx-4'>{title}</p>
     </div>
     <div className='w-full bg-white border my-4'></div>
-    {data.map(({ year, institution, course }, index) => (
+    {data.map(({ year, institution, course, percantage }, index) => (
       <div key={index} className='mb-4'>
-        <p className='text-sm sm:text-md md:text-lg'>{year}</p>
         <p className='text-lg sm:text-xl md:text-2xl font-semibold'>{institution}</p>
         <p className='text-gray-300 text-xs sm:text-sm md:text-lg'>{course}</p>
+        <p className='text-gray-300 text-xs sm:text-sm md:text-lg'>{percantage}</p>
+        <p className='text-sm sm:text-md md:text-lg'>{year}</p>
       </div>
     ))}
   </div>
@@ -26,20 +27,27 @@ const ExperienceCard = ({ icon: Icon, title, data, animRef }) => (
 const Experience = () => {
   const educationData = [
     {
-      year: "2022 to 2025",
+      year: "2020-21",
+      institution: "Rajasthan Vidhya Mandir (Jaipur)",
+      percantage: "10th – Ajmer Board, with 85%",
+      course: "",
+    },
+    {
+      year: "2022-23",
+      institution: "Rajasthan Vidhya Mandir (Jaipur)",
+      percantage: "12th – Ajmer Board, with 76%",
+      course: "",
+    },
+    {
+      year: "2023 to 2026",
       institution: "S.S.G. Pareek College",
       course: "Bachelor of Computer Applications (Pursuing)",
     },
-    {
-      year: "2023 to Present",
-      institution: "S.S.G. Pareek College",
-      course: "Web Development Program – HTML, CSS, JavaScript, React.js, Tailwind CSS, Bootstrap, PHP",
-    }
   ];
   
 
   const workData = [
-    { year: "2023 to 2024", institution: "S.S.G. Preek College", course: "Intern  Web Development" },
+    { year: "2023 to 2026", institution: "S.S.G. Preek College", course: "Intern Web Development" },
     { year: "2024 to 2025", institution: "Freelance Projects", course: "FrontEnd Developer" },
     // { year: "2025-2027", institution: "Tech Company", course: "Software Developer" }
   ];
