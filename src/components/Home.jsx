@@ -79,7 +79,7 @@ function Home() {
           <div ref={imgpopup} className="h-64 w-64 sm:h-80 sm:w-80 md:h-96 md:w-96 rounded-full border-2 border-white shadow-[0px_0px_50px_15px_rgba(152,0,241,1)]">
             <img
 
-              src="/assets/devender.jpg"
+              src="/assets/Own.jpg"
               alt="profile"
               className="h-full w-full rounded-full object-cover -rotate-3"
             />

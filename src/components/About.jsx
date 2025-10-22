@@ -83,7 +83,7 @@ function About() {
       <div className="flex flex-col lg:flex-row items-center justify-center my-32 space-y-8 lg:space-y-0 lg:space-x-8 w-full px-4">
         <div ref={(el) => (anim.current[4] = el)} className="flex justify-center items-center">
           <div className="h-[250px] w-[250px] sm:h-[350px] sm:w-[350px] rounded-full border-2 border-white shadow-lg flex justify-center items-center">
-            <img src="/assets/devender.jpg" alt="" className="h-full object-cover w-full rounded-full -rotate-3" />
+            <img src="/assets/Own.jpg" alt="" className="h-full object-cover w-full rounded-full -rotate-3" />
           </div>
         </div>
         <div className="flex flex-col items-center lg:items-start space-y-4 p-6 text-center lg:text-left">
